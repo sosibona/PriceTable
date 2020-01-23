@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .price-table {
   width: 100vw;
   height: 100vh;
@@ -92,11 +93,11 @@
 }
 
 .business-title {
-  width: 164px;
+  width: 165px;
 }
 
 .webshop-title {
-  width: 177px;
+  width: 176pxж;
 }
 
 * {
