@@ -91,6 +91,14 @@
   background-color: #EC632A;
 }
 
+.business-title {
+  width: 164px;
+}
+
+.webshop-title {
+  width: 177px;
+}
+
 * {
   box-sizing: border-box;
 }
