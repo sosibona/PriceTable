@@ -12,6 +12,25 @@
   height: 770px;
   background-color: #334247;
   margin-left: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.price-card__popular {
+  width: 25px;
+  height: 147px;
+  background-color: #DC3F45;
+  position: absolute;
+  right: 30px;
+  top: -30px;
+  transform: rotate(-45deg);
+}
+.price-card__popular span {
+  transform: rotate(90deg);
+  display: block;
+  position: relative;
+  top: 35px;
+  text-transform: uppercase;
+  line-height: 20px;
 }
 .price-card:first-child {
   margin-left: 0;
