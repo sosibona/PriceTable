@@ -1,0 +1,58 @@
+@import 'tableprice.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.green-checkmark:before {
+  content: "";
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 13px;
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 22px;
+}
+
+.green-description {
+  background-color: #5BB189;
+}
+
+.blue-checkmark:before {
+  content: "";
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 13px;
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 22px;
+}
+
+.blue-description {
+  background-color: #3A6BA5;
+}
+
+.orange-checkmark:before {
+  content: "";
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 13px;
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 22px;
+}
+
+.orange-description {
+  background-color: #EC632A;
+}
