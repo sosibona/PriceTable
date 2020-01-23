@@ -17,6 +17,10 @@
     margin-left: 0;
   }
 
+  &__title {
+    width: 100px;
+  }
+
   &__main-title {
     font-weight: 700;
     font-size: 35px;
@@ -45,7 +49,7 @@
   }
 
   &__description {
-    width: 327px;
+    width: 328px;
     text-align: center;
     margin: 0 auto;
     margin-top: 39px;

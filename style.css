@@ -16,6 +16,9 @@
 .price-card:first-child {
   margin-left: 0;
 }
+.price-card__title {
+  width: 100px;
+}
 .price-card__main-title {
   font-weight: 700;
   font-size: 35px;
@@ -41,7 +44,7 @@
   margin-top: 36px;
 }
 .price-card__description {
-  width: 327px;
+  width: 328px;
   text-align: center;
   margin: 0 auto;
   margin-top: 39px;
